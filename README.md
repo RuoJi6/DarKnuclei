@@ -155,12 +155,12 @@ python39 main.py  -gb url.txt  -wp http://127.0.0.1:4432 -gp socks5://127.0.0.1:
   - 本地批量识别资产【url.txt】
 
     ```
-   http://baidu.com  			   识别：http://baidu.com
-   http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
-   http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
-   baidu.com					      识别：http://baidu.com  https://baidu.com
-   192.168.3.1					      识别：192.168.3.1	
-   192.168.3.1:8080			      识别：192.168.3.1
+    http://baidu.com  			   识别：http://baidu.com
+    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
+    http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
+    baidu.com					      识别：http://baidu.com  https://baidu.com
+    192.168.3.1					      识别：192.168.3.1	
+    192.168.3.1:8080			      识别：192.168.3.1
     识别为：ip进行gogo探针-》将http网站与识别到为http或https进行指纹
     ```
 
@@ -179,12 +179,12 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
   - 本地批量识别资产【url.txt】
 
     ```
-   http://baidu.com  			   识别：http://baidu.com
-   http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
-   http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
-   baidu.com					      识别：http://baidu.com  https://baidu.com
-   192.168.3.1					      识别：192.168.3.1	
-   192.168.3.1:8080			      识别：192.168.3.1
+    http://baidu.com  			   识别：http://baidu.com
+    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
+    http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
+    baidu.com					      识别：http://baidu.com  https://baidu.com
+    192.168.3.1					      识别：192.168.3.1	
+    192.168.3.1:8080			      识别：192.168.3.1
     识别为：ip进行gogo探针-》将http网站与识别到为http或https进行指纹
     ```
 
