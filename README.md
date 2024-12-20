@@ -21,7 +21,9 @@
 - [ ] 对蜜罐识别进行识别调研，以及安全设备指纹。
 - [ ] 针对其它资产测绘平台。
 
+### 设计：
 
+![DarKnuclei Scan Beta v1.0](./assets/DarKnuclei Scan Beta v1.0.png)
 
 
 
@@ -40,7 +42,7 @@
 
    ```
    http://baidu.com  			   识别：http://baidu.com
-   http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
+   http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com/xxxx/xxx.asp
    http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
    baidu.com					      识别：http://baidu.com  https://baidu.com
    192.168.3.1					      识别：192.168.3.1	
@@ -156,7 +158,7 @@ python39 main.py  -gb url.txt  -wp http://127.0.0.1:4432 -gp socks5://127.0.0.1:
 
     ```
     http://baidu.com  			   识别：http://baidu.com
-    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
+    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com/xxxx/xxx.asp
     http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
     baidu.com					      识别：http://baidu.com  https://baidu.com
     192.168.3.1					      识别：192.168.3.1	
@@ -180,7 +182,7 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
 
     ```
     http://baidu.com  			   识别：http://baidu.com
-    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com
+    http://baidu.com/xxxx/xxx.asp 识别：http://baidu.com/xxxx/xxx.asp
     http://192.168.3.1:7788       识别：http://192.168.3.1:7788  192.168.3.1
     baidu.com					      识别：http://baidu.com  https://baidu.com
     192.168.3.1					      识别：192.168.3.1	
