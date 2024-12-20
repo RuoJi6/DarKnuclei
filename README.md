@@ -35,8 +35,7 @@
    2. fofa导出资产为最大条数，quake为1000。
    3. 只需配置好fofa以及quake key，调用测绘的时候默认检测key，存在则调用。
 
-2. 指纹识别之后在进行漏洞扫描，借助`observer_ward`+`gogo`+`nuclei`。
-
+2. 指纹识别之后在搜索对应漏洞扫描，借助`observer_ward`+`gogo`+`nuclei`。
 3. 本地批量识别资产。
 
    ```
