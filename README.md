@@ -60,7 +60,7 @@ TODO：
 
 `python3 main.py -h`
 
-project：扫描结果保存目录
+project目录：扫描结果保存目录
 
 #### 1、测绘资产
 
@@ -69,6 +69,7 @@ python39 main.py -f -domain baidu.com -ip 192.168.1.2 -icp xxxxxx -title 百度 
 ```
 
 - 查看域名=`baidu.com`  or  IP=192.168.1.2 or icp=xxxxxx or  title=百度 or  body=百度。
+- 只需配置好fofa以及quake key，调用测绘的时候默认检测key，存在则调用。
 
 #### 2、测绘资产+指纹识别
 
