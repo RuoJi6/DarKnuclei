@@ -7,10 +7,23 @@
 
 ![image-20241220152704492](./assets/image-20241220152704492.png)
 
-TODO：
+#### TODO：
+
+##### 首需求：
+
+- [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
+- [ ] 导出格式Excel报表。
+- [ ] cert证书序列号查询。
+
+##### 此需求：
 
 - [ ] 对vshell，CS，MSF等c2工具进行指纹识别。
-- [ ] 对蜜罐识别进行识别调研。
+- [ ] 对蜜罐识别进行识别调研，以及安全设备指纹。
+- [ ] 针对其它资产测绘平台。
+
+
+
+
 
 
 
@@ -191,3 +204,7 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
 ![1d4b6bcd7566746ec5b0cbe1c12a950](./assets/1d4b6bcd7566746ec5b0cbe1c12a950.png)
 
 ![6b0e23ab45c847a1a41ab94c2e34448](./assets/6b0e23ab45c847a1a41ab94c2e34448.png)
+
+## 交流群
+
+![179a1ce861d19760cf47b6d30e54562](./assets/179a1ce861d19760cf47b6d30e54562.jpg)
