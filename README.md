@@ -198,6 +198,8 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
 
 ## 演示
 
+![image-20241222172954779](./assets/image-20241222172954779.png)
+
 ![1d4b6bcd7566746ec5b0cbe1c12a950](./assets/1d4b6bcd7566746ec5b0cbe1c12a950.png)
 
 ![6b0e23ab45c847a1a41ab94c2e34448](./assets/6b0e23ab45c847a1a41ab94c2e34448.png)
