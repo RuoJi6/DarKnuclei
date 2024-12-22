@@ -9,17 +9,13 @@
 
 #### TODO：
 
-##### 首需求：
-
 - [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
 - [ ] 导出格式Excel报表。
-- [ ] cert证书序列号查询。
-
-##### 次需求：
-
 - [ ] 对vshell，CS，MSF等c2工具进行指纹识别。
 - [ ] 对蜜罐识别进行识别调研，以及安全设备指纹。
 - [ ] 针对其它资产测绘平台。
+- [ ] 通过测绘得到IP资产，对IP资产进行端口扫描指纹识别。
+- [ ] 钉钉企业微信漏洞扫描结果通知。
 
 ### 设计：
 
@@ -33,7 +29,7 @@
 
 1. 收集目标测绘资产。
 
-   1. fofa，quake [域名，ip，tcp，SSL(通用名称,证书持有者的组织)，title，body，一年前后资产]。
+   1. fofa，quake [域名，ip，tcp，host，SSL(通用名称,证书持有者的组织,证书序列号)，title，body，一年前后资产]。
    2. fofa导出资产为最大条数，quake为1000。
    3. 只需配置好fofa以及quake key，调用测绘的时候默认检测key，存在则调用。
 
@@ -211,3 +207,10 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
 ## 交流群
 
 ![179a1ce861d19760cf47b6d30e54562](./assets/179a1ce861d19760cf47b6d30e54562.jpg)
+
+## 感谢以下开源项目
+https://github.com/emo-crab/observer_ward
+
+https://github.com/chainreactors/gogo
+
+https://github.com/projectdiscovery/nuclei
