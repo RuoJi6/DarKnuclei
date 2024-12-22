@@ -3,7 +3,7 @@
 ## 🔺目标
 
 1. 对目标的测绘资产快速打点
-2. 一堆目标中快速识别打点
+2. 一堆目标中快别打点
 
 ![image-20241220152704492](./assets/image-20241220152704492.png)
 
@@ -30,7 +30,7 @@
 1. 收集目标测绘资产。
 
    1. fofa，quake [域名，ip，tcp，host，SSL(通用名称,证书持有者的组织,证书序列号)，title，body，一年前后资产]。
-   2. fofa导出资产为最大条数，quake为1000。
+   2. fofa导出资产为最大条数，quake默认1000条。
    3. 只需配置好fofa以及quake key，调用测绘的时候默认检测key，存在则调用。
 
 2. 指纹识别之后在搜索对应漏洞扫描，借助`observer_ward`+`gogo`+`nuclei`。
@@ -205,6 +205,8 @@ python39 main.py  -gn url.txt -ev -wp http://127.0.0.1:4432 -gp socks5://127.0.0
 ![image-20241220174750497](./assets/image-20241220174750497.png)
 
 ## 交流群
+
+申请：扫描器
 
 ![179a1ce861d19760cf47b6d30e54562](./assets/179a1ce861d19760cf47b6d30e54562.jpg)
 
