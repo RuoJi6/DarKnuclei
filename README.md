@@ -6,6 +6,8 @@
 2. 一堆目标快速打点
 3. 扫描红队基础设施与服务
 
+#### 将于20251月27推出正式版本2.0
+
 ![image](https://github.com/user-attachments/assets/f585eabe-b85c-4350-838e-e3296d0c1e4a)
 ![image](https://github.com/user-attachments/assets/11579282-63eb-4fe3-823c-419673340ef1)
 ![image](https://github.com/user-attachments/assets/3018d5bc-f9be-4e1a-8059-7831d49078dc)
@@ -14,7 +16,6 @@
 ## 关于
 关于 DarKnuclei，DarKnuclei专注于红蓝对抗一款工具，不仅可以扫描漏洞，快速打点，还可以扫描红队基础设施与服务，拥有高扩展的yaml格式指纹文件，方便自己编写红队基础设施指纹。
 
-#### 将于20251月27推出正式版本2.0
 
 #### TODO：
 
