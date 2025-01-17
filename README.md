@@ -9,75 +9,75 @@
 ## 前言
 DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在红队视角下的快速打点，还可以在蓝队视角下针对红队基础设施与服务进行探针扫描。
 
-:white_check_mark:	强特征
+✅	强特征
 
-:ballot_box_with_check:	弱特征
+☑️	弱特征
 ## 平台/服务
-| 名字                        | 类型     | 特征               | 计划中                  | 备注                                  |
-| --------------------------- | -------- | ------------------ | ----------------------- | ------------------------------------- |
-| ARL(灯塔)                   | platform | :white_check_mark: |                         |                                       |
-| Scope Sentry                | platform | :white_check_mark: |                         |                                       |
-| NPS                         | platform | :white_check_mark: |                         |                                       |
-| AWVS                        | platform | :white_check_mark: |                         |                                       |
-| Nessus                      | platform | :white_check_mark: |                         |                                       |
-| XSS平台                     | platform | :white_check_mark: |                         |                                       |
-| BeEF                        | platform | :white_check_mark: |                         |                                       |
-| H                           | platform | :white_check_mark: |                         |                                       |
-| LangSrcCurise               | platform | :white_check_mark: |                         |                                       |
-| Medusa                      | platform | :white_check_mark: |                         |                                       |
-| NextScan                    | platform | :white_check_mark: |                         |                                       |
-| prismx                      | platform | :white_check_mark: |                         |                                       |
-| CyberEdge                   | platform | :white_check_mark: |                         |                                       |
-| SerializedPayloadGenerator  | platform | :white_check_mark: |                         |                                       |
-| web-chains                  | platform | :white_check_mark: |                         |                                       |
-| RevSuit                     | platform | :white_check_mark: |                         |                                       |
-| MemShellParty               | platform | :white_check_mark: |                         |                                       |
-| vulfocus                    | platform | :white_check_mark: |                         |                                       |
-| gophish                     | platform | :white_check_mark: |                         |                                       |
-| testnet                     | platform | :white_check_mark: |                         |                                       |
-| rengine                     | platform | :white_check_mark: |                         |                                       |
-| JNDI-Injection-Exploit-Plus | Tools    | :white_check_mark: |                         | 只针对ldap强特征，rmi,jetty等端口弱特征 |
-| JNDI-Injection-Exploit      | Tools    | :white_check_mark: |                         | 只针对ldap强特征，rmi,jetty等端口弱特征 |
-| rogue-jndi                  | Tools    | :white_check_mark: |                         | 只针对ldap强特征，rmi,jetty等端口弱特征 |
-| JNDIMap                     | Tools    | :white_check_mark: |                         | 只针对ldap强特征，rmi,jetty等端口弱特征 |
-| ysoserial                   | Tools    |                    | :heavy_check_mark:	    |                                       |
+| 名字                        | 类型     | 特征 | 计划中 | 备注                              |
+| --------------------------- | -------- | ---- | ------ | --------------------------------- |
+| ARL(灯塔)                   | platform | ✅    |        |                                   |
+| Scope Sentry                | platform | ✅    |        |                                   |
+| NPS                         | platform | ✅    |        |                                   |
+| AWVS                        | platform | ✅    |        |                                   |
+| Nessus                      | platform | ✅    |        |                                   |
+| XSS平台                     | platform | ✅    |        |                                   |
+| BeEF                        | platform | ✅    |        |                                   |
+| H                           | platform | ✅    |        |                                   |
+| LangSrcCurise               | platform | ✅    |        |                                   |
+| Medusa                      | platform | ✅    |        |                                   |
+| NextScan                    | platform | ✅    |        |                                   |
+| prismx                      | platform | ✅    |        |                                   |
+| CyberEdge                   | platform | ✅    |        |                                   |
+| SerializedPayloadGenerator  | platform | ✅    |        |                                   |
+| web-chains                  | platform | ✅    |        |                                   |
+| RevSuit                     | platform | ✅    |        |                                   |
+| MemShellParty               | platform | ✅    |        |                                   |
+| vulfocus                    | platform | ✅    |        |                                   |
+| gophish                     | platform | ✅    |        |                                   |
+| testnet                     | platform | ✅    |        |                                   |
+| rengine                     | platform | ✅    |        |                                   |
+| JNDI-Injection-Exploit-Plus | Tools    | ✅    |        | 只针对ldap强特征，rmi,jetty弱特征 |
+| JNDI-Injection-Exploit      | Tools    | ✅    |        | 只针对ldap强特征，rmi,jetty弱特征 |
+| rogue-jndi                  | Tools    | ✅    |        | 只针对ldap强特征，rmi,jetty弱特征 |
+| JNDIMap                     | Tools    | ✅    |        | 只针对ldap强特征，rmi,jetty弱特征 |
+| ysoserial                   | Tools    |      | ✔️      |                                   |
 
 ## C2
-| 名字           | 版本        | 登录/连接          | 监听端口           | UDP            | TCP            | HTTP/S         | 计划中             | 备注 |
-| -------------- | ----------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ---- |
-| vshell         | 4.9.3~4.6.0 |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |      |
-| Cobalt Strike  |             | :white_check_mark: |                    |                    |                    | :white_check_mark: |                    |      |
-| Metasploit     |             |                    |                    |                    | :white_check_mark: | :white_check_mark: |                    |      |
-| Supershell     | 2.0.0       | :white_check_mark: | :white_check_mark: |                    |                    |                    |                    |      |
-| Daybreak       |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| chisel         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Viper          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| sliver         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Havoc          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Iom            |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Villain        |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| VenomRA        |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| ShadowPad      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Shad0w         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Remcos RAT     |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| QuasarRAT      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Pupy-C2        |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| PoshC2         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| PlugX RAT      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Orcus-RAT      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Ninja          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Mythic         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Havoc          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Hak5 Cloud     |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Gh0st          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Empire         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| DeimosC2       |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| DcRAT          |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Covenant       |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| Brute Ratel C4 |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| BitRAT         |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| AsyncRAT       |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
-| manjusaka      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
+| 名字           | 版本        | 登录/连接 | 监听端口 | UDP流量 | TCP流量 | HTTP/S流量 | 计划中 | 备注 |
+| -------------- | ----------- | --------- | -------- | ------- | ------- | ---------- | ------ | ---- |
+| vshell         | 4.9.3~4.6.0 |           | ✅        | ✅       | ✅       | ✅          |        |      |
+| Cobalt Strike  |             | ✅         |          |         |         | ✅          |        |      |
+| Metasploit     |             |           |          |         | ✅       | ✅          |        |      |
+| Supershell     | 2.0.0       | ✅         | ✅        |         |         |            |        |      |
+| Daybreak       |             |           |          |         |         |            | ✔️      |      |
+| chisel         |             |           |          |         |         |            | ✔️      |      |
+| Viper          |             |           |          |         |         |            | ✔️      |      |
+| sliver         |             |           |          |         |         |            | ✔️      |      |
+| Havoc          |             |           |          |         |         |            | ✔️      |      |
+| Iom            |             |           |          |         |         |            | ✔️      |      |
+| Villain        |             |           |          |         |         |            | ✔️      |      |
+| VenomRA        |             |           |          |         |         |            | ✔️      |      |
+| ShadowPad      |             |           |          |         |         |            | ✔️      |      |
+| Shad0w         |             |           |          |         |         |            | ✔️      |      |
+| Remcos RAT     |             |           |          |         |         |            | ✔️      |      |
+| QuasarRAT      |             |           |          |         |         |            | ✔️      |      |
+| Pupy-C2        |             |           |          |         |         |            | ✔️      |      |
+| PoshC2         |             |           |          |         |         |            | ✔️      |      |
+| PlugX RAT      |             |           |          |         |         |            | ✔️      |      |
+| Orcus-RAT      |             |           |          |         |         |            | ✔️      |      |
+| Ninja          |             |           |          |         |         |            | ✔️      |      |
+| Mythic         |             |           |          |         |         |            | ✔️      |      |
+| Havoc          |             |           |          |         |         |            | ✔️      |      |
+| Hak5 Cloud     |             |           |          |         |         |            | ✔️      |      |
+| Gh0st          |             |           |          |         |         |            | ✔️      |      |
+| Empire         |             |           |          |         |         |            | ✔️      |      |
+| DeimosC2       |             |           |          |         |         |            | ✔️      |      |
+| DcRAT          |             |           |          |         |         |            | ✔️      |      |
+| Covenant       |             |           |          |         |         |            | ✔️      |      |
+| Brute Ratel C4 |             |           |          |         |         |            | ✔️      |      |
+| BitRAT         |             |           |          |         |         |            | ✔️      |      |
+| AsyncRAT       |             |           |          |         |         |            | ✔️      |      |
+| manjusaka      |             |           |          |         |         |            | ✔️      |      |
 
 ## 将于20251月27推出正式版本2.0【优先内测】
 提交平台或C2或服务等提交至issus，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
