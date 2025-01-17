@@ -84,10 +84,6 @@ DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在�
 
 三个工作日进行审核，通过则加入内测群。
 
-![image](https://github.com/user-attachments/assets/f585eabe-b85c-4350-838e-e3296d0c1e4a)
-![image](https://github.com/user-attachments/assets/11579282-63eb-4fe3-823c-419673340ef1)
-![image](https://github.com/user-attachments/assets/3018d5bc-f9be-4e1a-8059-7831d49078dc)
-
 ### TODO：
 
 - [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
@@ -217,9 +213,11 @@ optional arguments:
 |tools           | rogue-jndi-LDAP | java,jndi,ldap,rogue-jnd,rogue,Groovy,rogue-jnd-ldap,tools
 ```
 
-## 关于
+## 关于/演示
 关于 DarKnuclei，DarKnuclei专注于红蓝对抗一款工具，不仅可以扫描漏洞，快速打点，还可以扫描红队基础设施与服务，拥有高扩展的yaml格式指纹文件，方便自己编写红队基础设施指纹。
-
+![image](https://github.com/user-attachments/assets/f585eabe-b85c-4350-838e-e3296d0c1e4a)
+![image](https://github.com/user-attachments/assets/11579282-63eb-4fe3-823c-419673340ef1)
+![image](https://github.com/user-attachments/assets/3018d5bc-f9be-4e1a-8059-7831d49078dc)
 
 
 
