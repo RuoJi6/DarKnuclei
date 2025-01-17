@@ -216,8 +216,10 @@ optional arguments:
 ## 关于/演示
 关于 DarKnuclei，DarKnuclei专注于红蓝对抗一款工具，不仅可以扫描漏洞，快速打点，还可以扫描红队基础设施与服务，拥有高扩展的yaml格式指纹文件，方便自己编写红队基础设施指纹。
 ![image](https://github.com/user-attachments/assets/f585eabe-b85c-4350-838e-e3296d0c1e4a)
-![image](https://github.com/user-attachments/assets/11579282-63eb-4fe3-823c-419673340ef1)
-![image](https://github.com/user-attachments/assets/3018d5bc-f9be-4e1a-8059-7831d49078dc)
+![image](https://github.com/user-attachments/assets/93cc0b5a-cf11-4b84-b161-3c1d33719624)
+![image](https://github.com/user-attachments/assets/32d09dfc-d96b-4945-928c-d0a1f6aa5a74)
+
+
 
 
 
