@@ -79,13 +79,16 @@ DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在�
 | AsyncRAT       |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
 | manjusaka      |             |                    |                    |                    |                    |                    | :heavy_check_mark: |      |
 
-#### 将于20251月27推出正式版本2.0
+## 将于20251月27推出正式版本2.0【优先内测】
+提交平台或C2或服务等提交至issus，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
+
+三个工作日进行审核，通过则加入内测群。
 
 ![image](https://github.com/user-attachments/assets/f585eabe-b85c-4350-838e-e3296d0c1e4a)
 ![image](https://github.com/user-attachments/assets/11579282-63eb-4fe3-823c-419673340ef1)
 ![image](https://github.com/user-attachments/assets/3018d5bc-f9be-4e1a-8059-7831d49078dc)
 
-#### TODO：
+### TODO：
 
 - [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
 - [ ] 导出格式Excel报表。
