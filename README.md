@@ -1,4 +1,4 @@
-#  🚀DarKnuclei Scan 
+#  🚀DarKnuclei 
 
 ## 🔺目标
 
