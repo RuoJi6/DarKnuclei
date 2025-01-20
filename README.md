@@ -9,6 +9,8 @@
 ## 前言
 DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在红队视角下的快速打点，还可以在蓝队视角下针对红队基础设施与服务进行探针扫描。
 
+
+# 特征覆盖
 ✅	强特征
 
 ☑️	弱特征
@@ -84,16 +86,6 @@ DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在�
 
 三个工作日进行审核，通过则加入内测群。
 
-### TODO：
-
-- [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
-- [ ] 导出格式Excel报表。
-- [ ] 对蜜罐识别进行识别调研，以及安全设备指纹。
-- [ ] 针对其它资产测绘平台。
-- [ ] 通过测绘得到IP资产，对IP资产进行端口扫描指纹识别。
-- [ ] 钉钉企业微信漏洞扫描结果通知。
-- [ ] 覆盖国内外C2。
-
 ## 📢 使用
 #### 环境配置：
 
@@ -134,83 +126,17 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-
-
----------------------------------------------------------------------------------
->python39 main.py RTSCAN -h
-
-.__       .  .         .
-|  \ _.._.|_/ ._ . . _.| _ *
-|__/(_][  |  \[ )(_|(_.|(/,|
-    DarKnuclei v2.0 by RuoJi
-    https://github.com/RuoJi6/DarKnuclei
-
-usage: main.py RTSCAN [-h] [-f FILE] [-i IP] [-p GOGO_PORT] [-gt GOGO_THREAD] [-ev] [-t TAGS] [-fy FILE_YAML] [-all]
-                      [-np PROXY]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -f FILE, --file FILE  扫描文件
-  -i IP, --ip IP        扫描指定ip
-  -p GOGO_PORT, --gogo_port GOGO_PORT
-                        gogo扫描指定端口
-  -gt GOGO_THREAD, --gogo_thread GOGO_THREAD
-                        gogo线程，默认1000
-  -ev, --gogo_poc       gogo自带漏洞验证
-  -t TAGS, --tags TAGS  扫描指定的tags
-  -fy FILE_YAML, --file_yaml FILE_YAML
-                        扫描指定的yaml文件
-  -all, --all_yaml      查看可扫描的yaml
-  -np PROXY, --proxy PROXY
-                        扫描代理【socks5,http】
-
-
----------------------------------------------------------------------------------
->python39 main.py RTSCAN -a
-
-.__       .  .         .
-|  \ _.._.|_/ ._ . . _.| _ *
-|__/(_][  |  \[ )(_|(_.|(/,|
-    DarKnuclei v2.0 by RuoJi
-    https://github.com/RuoJi6/DarKnuclei
-
-[+] Red Team Infrastructure Scan Template
-|type            | name | tags
----------------------------------------------
-|C2              | Cobalt Strike | Cobalt Strike,CS,cs,Fortra,C2
-|C2              | Metasploit Framework HTTP/S | msf,Metasploit Framework,msf,Rapid7,http,https,C2
-|C2              | Metasploit Framework TCP | msf,Metasploit Framework,msf,Rapid7,tcp,C2
-|C2              | Supershell | Supershell,C2
-|C2              | vshell | vshell,C2
-|platform        | ARL | Asset Reconnaissance Lighthouse,ARL,arl,platform
-|platform        | Acunetix | Acunetix,awvs,AWVS,platform
-|platform        | BeEF | XSS,xss,beef,platform
-|platform        | CyberEdge | CyberEdge,platform
-|platform        | DBJ | DBJ,dbj,WgpSec,platform
-|platform        | gophish | gophish,platform
-|platform        | H | H,SiJiDo,h,platform
-|platform        | LangSrcCurise | LangSrcCurise,platform
-|platform        | Medusa | Medusa,mds,platform
-|platform        | MemShellParty | MemShellParty,shell,java,JavaWeb,platform
-|platform        | Nessus | Nessus,nessus,platform
-|platform        | NextScan | NextScan,fr,platform
-|platform        | NPS | NPS,nps,proxy,platform
-|platform        | prismx | prismx,platform
-|platform        | rengine | rengine,platform
-|platform        | revsuit | revsuit,dnslog,platform
-|platform        | Scope Sentry | Scope Sentry,platform
-|platform        | SerializedPayloadGenerator | SerializedPayloadGenerator,payload,platform
-|platform        | testnet | testnet，platform
-|platform        | vulfocus | vulfocus,Vulhub,Vulapps,platform
-|platform        | XSS platform | XSS,xss,platform
-|tools           | JETTYSERVER | java,jndi,jettyserver,jetty,JETTYSERVER,tools
-|tools           | JNDI-Injection-Exploit-LDAP | java,jndi,ldap,JNDI-Injection-Exploit-LDAP,tools
-|tools           | JNDI-Injection-Exploit-Plus-LDAP | java,jndi,ldap,JNDI-Injection-Exploit-Plus-LDAP,tools
-|tools           | JNDIMap-LDAP | java,jndi,ldap,JNDIMap-LDAP,JNDIMap,tools
-|tools           | LDAPSERVER | java,jndi,ldap,LDAPSERVER,tools
-|tools           | RMISERVER | java,jndi,rmi,RMISERVER,tools
-|tools           | rogue-jndi-LDAP | java,jndi,ldap,rogue-jnd,rogue,Groovy,rogue-jnd-ldap,tools
 ```
+
+## TODO：
+
+- [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
+- [ ] 导出格式Excel报表。
+- [ ] 对蜜罐识别进行识别调研，以及安全设备指纹。
+- [ ] 针对其它资产测绘平台。
+- [ ] 通过测绘得到IP资产，对IP资产进行端口扫描指纹识别。
+- [ ] 钉钉企业微信漏洞扫描结果通知。
+- [ ] 覆盖国内外C2。
 
 ## 关于/演示
 关于 DarKnuclei，DarKnuclei专注于红蓝对抗一款工具，不仅可以扫描漏洞，快速打点，还可以扫描红队基础设施与服务，拥有高扩展的yaml格式指纹文件，方便自己编写红队基础设施指纹。
