@@ -125,7 +125,7 @@ optional arguments:
 ```
 
 ## 【优先内测】
-提交平台或C2或服务等提交至issus，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
+提交平台或C2或服务等提交至issus【在上面C2，平台/服务**表格**中没有的】，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
 
 三个工作日进行审核，通过则加入内测群。
 
