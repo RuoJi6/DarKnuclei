@@ -7,7 +7,7 @@
 3. 扫描红队基础设施与服务
 
 ## 前言
-DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在红队视角下的快速打点，还可以在蓝队视角下针对红队基础设施与服务进行探针扫描。
+DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在红队视角下的快速打点，还可以在蓝队视角下针对红队基础设施与服务进行探针扫描，DarKnuclei在针对红队基础设施进行扫描针对C2，采用强/弱特征，通过C2一些特征值去识别探针，在保证准确率的情况下去尽可能识别多C2，内置`yaml`语法，使用者可以自己编写`yaml`文件，识别特定的C2。
 
 
 # 特征覆盖
@@ -81,10 +81,6 @@ DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在�
 | AsyncRAT       |             |           |          |         |         |            | ✔️      |      |
 | manjusaka      |             |           |          |         |         |            | ✔️      |      |
 
-## 将于20251月27推出正式版本2.0【优先内测】
-提交平台或C2或服务等提交至issus，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
-
-三个工作日进行审核，通过则加入内测群。
 
 ## 📢 使用
 #### 环境配置：
@@ -128,6 +124,11 @@ optional arguments:
   -h, --help            show this help message and exit
 ```
 
+## 【优先内测】
+提交平台或C2或服务等提交至issus，提交格式：ARL，Asset Reconnaissance Lighthouse，https://github.com/xxxx/ARL
+
+三个工作日进行审核，通过则加入内测群。
+
 ## TODO：
 
 - [ ] 搜索引擎js文件路径，以及ico图片hash搜索【手动导入，输入ico图标地址在线搜索】。
@@ -137,6 +138,7 @@ optional arguments:
 - [ ] 通过测绘得到IP资产，对IP资产进行端口扫描指纹识别。
 - [ ] 钉钉企业微信漏洞扫描结果通知。
 - [ ] 覆盖国内外C2。
+- [ ] 编写`yaml`文件编写教程
 
 ## 关于/演示
 关于 DarKnuclei，DarKnuclei专注于红蓝对抗一款工具，不仅可以扫描漏洞，快速打点，还可以扫描红队基础设施与服务，拥有高扩展的yaml格式指纹文件，方便自己编写红队基础设施指纹。
