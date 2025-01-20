@@ -97,7 +97,7 @@ DarKnuclei是一款适合针对红蓝对抗的一款工具，不仅仅可以在�
 ## 📢 使用
 #### 环境配置：
 
-1. 如果需要进行漏洞扫描需要将`nuclei`加入环境变量。
+1. 如果需要进行漏洞扫描需要将`nuclei`加入环境变量【同时需要下载[nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)，并在config.ini中配置】。
 2. 如需使用测绘功能请修改`config.ini`添加key。
 3. python版本：`python3.9`。
 4. 如果是mac或linux请下载对于的执行程序在plugin目录，并配置`config.ini`。
