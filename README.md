@@ -2,26 +2,27 @@
 2. 对目标资产进行递归扫描
 3. 快速判断资产存活，筛选出可用资产
 4. 在线命令行更新工具
+5. dingding+邮箱里的通知（扫描前以及结束通知）
+6. 联动projectdiscovery可视化显示漏洞数据
+7. 可选递归指定的指纹（springboot....等）
+
+# dingding+邮件
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/7d9e6db0-2246-4683-a8d5-e4db0b3e448c" />
 
 
-在线检查更新
-
-<img width="494" alt="image" src="https://github.com/user-attachments/assets/ae5cc4be-d35b-456e-9eb3-76747cb93eff" />
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/d4d72824-00ed-4fc1-86a1-4b5ccce2f748" />
 
 
-在线更新
-
-<img width="1076" alt="image" src="https://github.com/user-attachments/assets/2e6f00c5-f031-4c5b-9390-d46fe1f69358" />
+<img width="789" alt="image" src="https://github.com/user-attachments/assets/e79719fa-85d3-423e-87d1-bea121e8aafe" />
 
 
-测绘资产筛选
+# projectdiscovery漏洞可视化
+<img width="1526" alt="image" src="https://github.com/user-attachments/assets/2ffc0256-dc25-40a7-bfb2-1fdb4218f1e7" />
+<img width="1727" alt="image" src="https://github.com/user-attachments/assets/de558187-98e8-4645-a9f8-7eea792cb9d8" />
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/2f3cf485-5623-45a2-8aa3-686bbde275ee" />
+# 扫描显示
+<img width="1723" alt="image" src="https://github.com/user-attachments/assets/84684a65-61b6-4a17-8670-85159168ab9f" />
 
-漏洞结果
 
-<img width="986" alt="image" src="https://github.com/user-attachments/assets/06e50abf-3bcf-4b24-b05a-19b2718088f3" />
-
-递归结果
-
-<img width="909" alt="image" src="https://github.com/user-attachments/assets/6df114a3-b14d-41ee-8c91-485ce12b04cd" />
+# 结果表格
+<img width="1665" alt="image" src="https://github.com/user-attachments/assets/c32a0637-6d28-450c-96cb-7f29db38a3af" />
